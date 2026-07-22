@@ -1,0 +1,47 @@
+---
+title: "Publications"
+---
+
+
+My research combines climate dynamics, numerical modelling, data science and artificial intelligence to better understand climate variability, extreme events and their societal impacts.
+
+The publications below are organised by research theme rather than chronology, reflecting the evolution and breadth of my scientific interests.
+
+# 🤖 Artificial Intelligence for Climate Science
+
+Exploring how artificial intelligence can accelerate climate-impact research.
+
+::: {.publication-card}
+
+## Using LLMs to Build a Database of Climate Extreme Impacts
+
+**ClimateNLP 2024**
+
+Large language models are used to automatically extract climate-impact information from unstructured text.
+
+`LLMs`
+
+`Natural Language Processing`
+
+`Climate impacts`
+
+ACL Anthology
+
+:::
+
+::: {.publication-card}
+
+## WikImpacts 1.0
+
+**Scientific Data (submitted)**
+
+Development of a global climate-impact database using automated information extraction.
+
+`Knowledge extraction`
+
+`Wikipedia`
+
+`AI`
+
+:::
+

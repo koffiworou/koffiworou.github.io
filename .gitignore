@@ -1,0 +1,16 @@
+# Climate datasets
+*.nc
+*.grib
+*.grb
+*.h5
+*.hdf5
+
+# Python
+__pycache__/
+*.pyc
+
+# Quarto cache
+.quarto/
+
+# macOS/Linux
+.DS_Store

@@ -1,0 +1,58 @@
+project:
+  type: website
+
+website:
+  title: ""
+
+  navbar:
+    #logo: images/logo.png
+
+    left:
+      - text: Home
+        href: index.qmd
+
+      - text: Research Journey
+        href: about.qmd
+
+      - text: Research
+        href: research.qmd
+
+      - text: Publications
+        href: publications.qmd
+
+      - text: Projects
+        href: projects.qmd
+
+      - text: CV
+        href: cv.qmd
+
+      - text: Contact
+        href: contact.qmd
+      - text: Climate monitoring
+        href: climate_monitoring.qmd
+
+    right:
+      - icon: linkedin
+        href: https://linkedin.com/in/koffi-worou
+
+      - icon: github
+        href: https://github.com/koffiworou
+
+      
+     # - icon: researchgate
+     #   href: https://www.researchgate.net/profile/Koffi-Worou
+      #- icon: globe
+       # href: https://orcid.org/0000-0002-2230-8431
+        #aria-label: "ORCID"
+
+# add bibliography file reference.bib
+bibliography: references.bib
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    include-in-header:
+      - text: |
+          <link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">

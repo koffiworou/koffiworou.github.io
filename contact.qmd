@@ -1,0 +1,62 @@
+---
+title: "Contact"
+page-layout: full
+---
+
+
+I'm always happy to discuss research collaborations, climate variability, climate extremes, artificial intelligence for climate science, or potential opportunities to work together.
+
+::: {.columns}
+
+::: {.column width="35%"}
+
+![](images/_MG_0822-YNO-3.jpg){width=90% .rounded}
+
+:::
+
+::: {.column width="65%"}
+
+## Get in touch
+
+<div class="contact-card">
+
+### ✉ Email
+
+<koffi.worou@geo.uu.se>
+
+</div>
+
+<div class="contact-card">
+
+### 🏛 Institution
+
+Department of Earth Sciences
+Program for Air, Water and Landscape Sciences; Meteorology
+Uppsala University
+
+Uppsala, Sweden
+
+</div>
+
+<div class="contact-card">
+
+### 🔗 Professional Profiles
+- **Uppsala University**: [My homepage](https://www.uu.se/en/contact-and-organisation/staff?query=N23-2298)
+- **ORCID:** [https://orcid.org/0000-0002-2230-8431](https://orcid.org/0000-0002-2230-8431)
+- **Google Scholar:** [Koffi Worou](https://scholar.google.com/citations?user=jDtuvjMAAAAJ&hl=fr&oi=ao)
+- **ResearchGate:** [https://www.researchgate.net/profile/Koffi-Worou](https://www.researchgate.net/profile/Koffi-Worou)
+- **LinkedIn:** [https://www.linkedin.com/in/koffi-worou](https://www.linkedin.com/in/koffi-worou/)
+
+</div>
+
+<div class="contact-card">
+
+### 📄 Curriculum Vitae
+
+[Download my CV](files/koffi_worou_2026_07.pdf)
+
+</div>
+
+:::
+
+:::

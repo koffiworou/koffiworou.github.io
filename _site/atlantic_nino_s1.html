@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Atlantic Niño</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-483c4bcc1e5ea4130dfc91c6b0a57e3d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-climate-monitoring" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Climate monitoring</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-climate-monitoring">    
+        <li>
+    <a class="dropdown-item" href="./climate_monitoring.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./todays_weather_maps.html">
+ <span class="dropdown-text">Today’s weather maps</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./atlantic_nino.html">
+ <span class="dropdown-text">Atlantic Niño</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./west_african_monsoon.html">
+ <span class="dropdown-text">West African Monsoon</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./enso.html">
+ <span class="dropdown-text">El Niño–Southern Oscillation</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./extreme_weather_events.html"> 
+<span class="menu-text">Extreme Weather Events</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/koffi-worou"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/koffiworou"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#quick-facts" id="toc-quick-facts" class="nav-link active" data-scroll-target="#quick-facts">Quick Facts</a></li>
+  <li><a href="#what-is-the-atlantic-niño" id="toc-what-is-the-atlantic-niño" class="nav-link" data-scroll-target="#what-is-the-atlantic-niño">What is the Atlantic Niño?</a></li>
+  <li><a href="#why-does-it-matter" id="toc-why-does-it-matter" class="nav-link" data-scroll-target="#why-does-it-matter">Why does it matter?</a></li>
+  <li><a href="#physical-mechanisms" id="toc-physical-mechanisms" class="nav-link" data-scroll-target="#physical-mechanisms">Physical mechanisms</a>
+  <ul class="collapse">
+  <li><a href="#mean-state" id="toc-mean-state" class="nav-link" data-scroll-target="#mean-state">Mean state</a></li>
+  <li><a href="#initiation" id="toc-initiation" class="nav-link" data-scroll-target="#initiation">Initiation</a></li>
+  <li><a href="#atlantic-bjerknes-feedback" id="toc-atlantic-bjerknes-feedback" class="nav-link" data-scroll-target="#atlantic-bjerknes-feedback">Atlantic Bjerknes feedback</a></li>
+  <li><a href="#decay" id="toc-decay" class="nav-link" data-scroll-target="#decay">Decay</a></li>
+  </ul></li>
+  <li><a href="#monitoring-the-current-state" id="toc-monitoring-the-current-state" class="nav-link" data-scroll-target="#monitoring-the-current-state">Monitoring the current state</a>
+  <ul class="collapse">
+  <li><a href="#current-atlantic-niño-index" id="toc-current-atlantic-niño-index" class="nav-link" data-scroll-target="#current-atlantic-niño-index">Current Atlantic Niño Index</a></li>
+  <li><a href="#sea-surface-temperature-anomalies" id="toc-sea-surface-temperature-anomalies" class="nav-link" data-scroll-target="#sea-surface-temperature-anomalies">Sea surface temperature anomalies</a></li>
+  <li><a href="#equatorial-sst-evolution" id="toc-equatorial-sst-evolution" class="nav-link" data-scroll-target="#equatorial-sst-evolution">Equatorial SST evolution</a></li>
+  <li><a href="#surface-winds" id="toc-surface-winds" class="nav-link" data-scroll-target="#surface-winds">Surface winds</a></li>
+  <li><a href="#thermocline-conditions" id="toc-thermocline-conditions" class="nav-link" data-scroll-target="#thermocline-conditions">Thermocline conditions</a></li>
+  </ul></li>
+  <li><a href="#historical-evolution" id="toc-historical-evolution" class="nav-link" data-scroll-target="#historical-evolution">Historical evolution</a>
+  <ul class="collapse">
+  <li><a href="#atlantic-niño-index" id="toc-atlantic-niño-index" class="nav-link" data-scroll-target="#atlantic-niño-index">Atlantic Niño Index</a></li>
+  <li><a href="#major-atlantic-niño-events" id="toc-major-atlantic-niño-events" class="nav-link" data-scroll-target="#major-atlantic-niño-events">Major Atlantic Niño events</a></li>
+  <li><a href="#seasonal-evolution" id="toc-seasonal-evolution" class="nav-link" data-scroll-target="#seasonal-evolution">Seasonal evolution</a></li>
+  </ul></li>
+  <li><a href="#climate-impacts" id="toc-climate-impacts" class="nav-link" data-scroll-target="#climate-impacts">Climate impacts</a>
+  <ul class="collapse">
+  <li><a href="#west-african-monsoon" id="toc-west-african-monsoon" class="nav-link" data-scroll-target="#west-african-monsoon">West African Monsoon</a></li>
+  <li><a href="#marine-heatwaves" id="toc-marine-heatwaves" class="nav-link" data-scroll-target="#marine-heatwaves">Marine Heatwaves</a></li>
+  <li><a href="#fisheries" id="toc-fisheries" class="nav-link" data-scroll-target="#fisheries">Fisheries</a></li>
+  <li><a href="#tropical-climate" id="toc-tropical-climate" class="nav-link" data-scroll-target="#tropical-climate">Tropical Climate</a></li>
+  </ul></li>
+  <li><a href="#predictability" id="toc-predictability" class="nav-link" data-scroll-target="#predictability">Predictability</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
+  <li><a href="#my-research" id="toc-my-research" class="nav-link" data-scroll-target="#my-research">My Research</a></li>
+  <li><a href="#atlantic-niño-in-recent-years" id="toc-atlantic-niño-in-recent-years" class="nav-link" data-scroll-target="#atlantic-niño-in-recent-years">Atlantic Niño in Recent Years</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a>
+  <ul class="collapse">
+  <li><a href="#review-papers" id="toc-review-papers" class="nav-link" data-scroll-target="#review-papers">Review papers</a></li>
+  <li><a href="#monitoring-centres" id="toc-monitoring-centres" class="nav-link" data-scroll-target="#monitoring-centres">Monitoring centres</a></li>
+  <li><a href="#data-portals" id="toc-data-portals" class="nav-link" data-scroll-target="#data-portals">Data portals</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Atlantic Niño</h1>
+<p class="subtitle lead">Monitoring and understanding tropical Atlantic climate variability</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p><strong>The Atlantic Niño is the dominant mode of interannual climate variability in the equatorial Atlantic Ocean. Although generally weaker than its Pacific counterpart (El Niño), it exerts a profound influence on regional climate, marine ecosystems, fisheries, and rainfall over West Africa and northeastern South America. This page provides an overview of the phenomenon, the physical processes that govern its evolution, monitoring products, datasets, forecasts, and links to current research.</strong></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/atlantic_nino/azm_patterns_sst_vimfc.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>a) Regression of sea surface temperature (colors, in ◦C), sea level pressure (blue and red contours, in hPa) and surface winds (arrows) anomalies onto the standardized JJAS Atlantic Niño index, over the period 1901 – 2010. Green contours denote signiﬁcant SSTAs at 95% conﬁdence level (Student-test). b) Same as in a), but for the vertically integrated moisture ﬂux convergence (colors) and vertically integrated moisture ﬂux (arrows) anomalies. Positive SST anomalies develop over the eastern and central equatorial Atlantic (ATL3 region), accompanied by anomalous westerly surface winds along the equator. These atmospheric anomalies reduce equatorial upwelling, deepen the eastern thermocline, and reinforce the warm SST anomalies through the Atlantic Bjerknes feedback. Positive (negative) moisture flux convergence indicates regions where atmospheric moisture accumulates (diverges), favouring enhanced (suppressed) precipitation. Source: <a href="https://doi.org/10.1007/s00382-020-05276-5">Worou et al.&nbsp;2020.</a></figcaption>
+</figure>
+</div>
+<hr>
+<section id="quick-facts" class="level2">
+<h2 class="anchored" data-anchor-id="quick-facts">Quick Facts</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Primary region</strong></td>
+<td style="text-align: left;">Equatorial Atlantic Ocean</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Monitoring index</strong></td>
+<td style="text-align: left;">ATL3 (3°S–3°N, 20°W–0°)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Typical season</strong></td>
+<td style="text-align: left;">June–August</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Cold counterpart</strong></td>
+<td style="text-align: left;">Atlantic Niña</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Main impacts</strong></td>
+<td style="text-align: left;">West African rainfall, marine heatwaves, fisheries, tropical climate</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="what-is-the-atlantic-niño" class="level1">
+<h1>What is the Atlantic Niño?</h1>
+<p>The Atlantic Niño is characterized by anomalous warming of sea surface temperatures (SSTs) in the eastern and central equatorial Atlantic Ocean. These warm anomalies typically develop during boreal spring, peak between June and August, and dissipate during autumn. Its cold counterpart, the <strong>Atlantic Niña</strong>, corresponds to anomalously cool SSTs over the same region.</p>
+<p>Although it shares several characteristics with the Pacific El Niño–Southern Oscillation (ENSO), the Atlantic Niño differs in important ways. The tropical Atlantic is considerably narrower than the Pacific, the equatorial thermocline is shallower, and ocean–atmosphere interactions operate over shorter spatial and temporal scales. Consequently, Atlantic Niño events are generally weaker, shorter-lived, and more strongly modulated by the seasonal cycle.</p>
+<p>The state of the Atlantic Niño is commonly monitored using SST anomalies averaged over the <strong>ATL3 region (3°S–3°N, 20°W–0°)</strong>.</p>
+<hr>
+</section>
+<section id="why-does-it-matter" class="level1">
+<h1>Why does it matter?</h1>
+<p>Despite its relatively small spatial extent, the Atlantic Niño influences weather and climate across the tropical Atlantic and surrounding continents.</p>
+<p>Warm Atlantic Niño events are typically associated with</p>
+<ul>
+<li>enhanced rainfall along the Guinea Coast;</li>
+<li>modifications of the West African monsoon circulation;</li>
+<li>weaker equatorial upwelling;</li>
+<li>warmer upper-ocean temperatures;</li>
+<li>increased likelihood of marine heatwaves;</li>
+<li>impacts on marine ecosystems and fisheries.</li>
+</ul>
+<p>Conversely, Atlantic Niña events often produce opposite anomalies.</p>
+<hr>
+</section>
+<section id="physical-mechanisms" class="level1">
+<h1>Physical mechanisms</h1>
+<section id="mean-state" class="level2">
+<h2 class="anchored" data-anchor-id="mean-state">Mean state</h2>
+<p>Under climatological conditions, easterly trade winds drive surface waters westward, maintaining a shallow thermocline and vigorous upwelling in the eastern equatorial Atlantic. These processes give rise to the seasonal Atlantic Cold Tongue, which strongly influences regional climate.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Suggested figure</strong></p>
+<p>Mean SST, trade winds and thermocline depth.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/atlantic_nino/mean_djf_jja_climatology.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Mean sea surface temperature and surface wind at 2m, during December-January-February (DJF) and June-July-August (JJA) seasons, over the period 1992-2021. The Atlantic cold tongue is evident in the eastern equatorial Atlantic, in JJA. Data source: ERA5</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="initiation" class="level2">
+<h2 class="anchored" data-anchor-id="initiation">Initiation</h2>
+<p>Atlantic Niño events may be initiated by several processes, including</p>
+<ul>
+<li>westerly wind anomalies,</li>
+<li>stochastic atmospheric variability,</li>
+<li>remote forcing from ENSO,</li>
+<li>equatorial Kelvin waves,</li>
+<li>changes in the seasonal Atlantic Cold Tongue development.</li>
+</ul>
+<hr>
+</section>
+<section id="atlantic-bjerknes-feedback" class="level2">
+<h2 class="anchored" data-anchor-id="atlantic-bjerknes-feedback">Atlantic Bjerknes feedback</h2>
+<p>Once initiated, ocean–atmosphere coupling amplifies the SST anomalies through the Atlantic Bjerknes feedback.</p>
+<p>The sequence can be summarized as follows:</p>
+<ol type="1">
+<li>Westerly wind anomalies weaken the climatological trade winds.</li>
+<li>The eastern equatorial thermocline deepens.</li>
+<li>Upwelling weakens.</li>
+<li>Sea surface temperatures increase.</li>
+<li>Enhanced atmospheric convection develops over the eastern basin.</li>
+<li>Atmospheric circulation further weakens the trade winds, reinforcing the warming.</li>
+</ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Suggested illustration
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A schematic showing the Atlantic Bjerknes feedback.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="decay" class="level2">
+<h2 class="anchored" data-anchor-id="decay">Decay</h2>
+<p>Atlantic Niño events are usually short-lived. Their decay is promoted by</p>
+<ul>
+<li>seasonal migration of the ITCZ,</li>
+<li>strengthening southeasterly trade winds,</li>
+<li>enhanced upwelling,</li>
+<li>negative ocean–atmosphere feedbacks.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="monitoring-the-current-state" class="level1">
+<h1>Monitoring the current state</h1>
+<p>This section will eventually be updated automatically using GitHub Actions.</p>
+<section id="current-atlantic-niño-index" class="level2">
+<h2 class="anchored" data-anchor-id="current-atlantic-niño-index">Current Atlantic Niño Index</h2>
+<p><em>(Insert latest ATL3 index.)</em></p>
+<hr>
+</section>
+<section id="sea-surface-temperature-anomalies" class="level2">
+<h2 class="anchored" data-anchor-id="sea-surface-temperature-anomalies">Sea surface temperature anomalies</h2>
+<p><em>(Insert latest SST anomaly map.)</em></p>
+<hr>
+</section>
+<section id="equatorial-sst-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="equatorial-sst-evolution">Equatorial SST evolution</h2>
+<p><em>(Insert Hovmöller diagram.)</em></p>
+<hr>
+</section>
+<section id="surface-winds" class="level2">
+<h2 class="anchored" data-anchor-id="surface-winds">Surface winds</h2>
+<p><em>(Insert wind anomaly maps.)</em></p>
+<hr>
+</section>
+<section id="thermocline-conditions" class="level2">
+<h2 class="anchored" data-anchor-id="thermocline-conditions">Thermocline conditions</h2>
+<p><em>(Insert subsurface temperature or thermocline depth anomalies.)</em></p>
+<hr>
+</section>
+</section>
+<section id="historical-evolution" class="level1">
+<h1>Historical evolution</h1>
+<section id="atlantic-niño-index" class="level2">
+<h2 class="anchored" data-anchor-id="atlantic-niño-index">Atlantic Niño Index</h2>
+<p>Display a time series from 1950 to present highlighting major warm and cold events.</p>
+<hr>
+</section>
+<section id="major-atlantic-niño-events" class="level2">
+<h2 class="anchored" data-anchor-id="major-atlantic-niño-events">Major Atlantic Niño events</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Category</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1984</td>
+<td>Strong</td>
+<td>Warm event</td>
+</tr>
+<tr class="even">
+<td>1988</td>
+<td>Strong</td>
+<td>Warm event</td>
+</tr>
+<tr class="odd">
+<td>1998</td>
+<td>Strong</td>
+<td>Warm event</td>
+</tr>
+<tr class="even">
+<td>2021</td>
+<td>Moderate</td>
+<td>Warm event</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="seasonal-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="seasonal-evolution">Seasonal evolution</h2>
+<p>Suggested composite figures</p>
+<ul>
+<li>SST anomalies</li>
+<li>Wind anomalies</li>
+<li>Rainfall anomalies</li>
+<li>OLR anomalies</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="climate-impacts" class="level1">
+<h1>Climate impacts</h1>
+<section id="west-african-monsoon" class="level2">
+<h2 class="anchored" data-anchor-id="west-african-monsoon">West African Monsoon</h2>
+<p>Atlantic Niño events modify convection over the Gulf of Guinea and influence the northward migration of the Intertropical Convergence Zone (ITCZ). Warm events are generally associated with enhanced rainfall along the Guinea Coast, while impacts farther inland depend on season and regional circulation.</p>
+<p><em>(Insert rainfall composites.)</em></p>
+<hr>
+</section>
+<section id="marine-heatwaves" class="level2">
+<h2 class="anchored" data-anchor-id="marine-heatwaves">Marine Heatwaves</h2>
+<p>Warm Atlantic Niño conditions reduce equatorial upwelling and increase upper-ocean temperatures, creating favourable conditions for marine heatwave development in the eastern equatorial Atlantic.</p>
+<p>This relationship forms one of the central themes of my current research.</p>
+<p><em>(Insert marine heatwave figure.)</em></p>
+<hr>
+</section>
+<section id="fisheries" class="level2">
+<h2 class="anchored" data-anchor-id="fisheries">Fisheries</h2>
+<p>Changes in SST and upwelling modify nutrient availability and marine productivity, influencing fisheries in the Gulf of Guinea and adjacent coastal regions.</p>
+<hr>
+</section>
+<section id="tropical-climate" class="level2">
+<h2 class="anchored" data-anchor-id="tropical-climate">Tropical Climate</h2>
+<p>Atlantic Niño events also influence tropical atmospheric circulation, affecting the Atlantic ITCZ, African easterly waves, and potentially tropical cyclone activity.</p>
+<hr>
+</section>
+</section>
+<section id="predictability" class="level1">
+<h1>Predictability</h1>
+<p>Because of the relatively slow evolution of the tropical ocean, Atlantic Niño events can often be predicted several months in advance.</p>
+<p>Forecast systems include</p>
+<ul>
+<li>ECMWF SEAS5</li>
+<li>Copernicus Climate Change Service</li>
+<li>North American Multi-Model Ensemble (NMME)</li>
+</ul>
+<p><em>(Insert forecast plume.)</em></p>
+<hr>
+</section>
+<section id="datasets" class="level1">
+<h1>Datasets</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Dataset</th>
+<th>Variable</th>
+<th>Resolution</th>
+<th>Period</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ERSSTv5</td>
+<td>SST</td>
+<td>2°</td>
+<td>1854–present</td>
+</tr>
+<tr class="even">
+<td>OISST</td>
+<td>SST</td>
+<td>0.25°</td>
+<td>1982–present</td>
+</tr>
+<tr class="odd">
+<td>ERA5</td>
+<td>Atmosphere</td>
+<td>0.25°</td>
+<td>1940–present</td>
+</tr>
+<tr class="even">
+<td>ORAS5</td>
+<td>Ocean</td>
+<td>0.25°</td>
+<td>1979–present</td>
+</tr>
+<tr class="odd">
+<td>GODAS</td>
+<td>Ocean</td>
+<td>1°</td>
+<td>1980–present</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="my-research" class="level1">
+<h1>My Research</h1>
+<p>My research focuses on understanding the dynamics of extreme marine heatwaves in the equatorial Atlantic and their links with Atlantic Niño variability. Using observations, reanalysis products, climate models, and rare-event algorithms, I investigate the physical mechanisms governing extreme ocean warming and their impacts on West African hydroclimate, marine ecosystems, and coastal populations.</p>
+<p>Future additions to this section will include</p>
+<ul>
+<li>Publications</li>
+<li>Research projects</li>
+<li>Interactive figures</li>
+<li>Animations</li>
+<li>GitHub repositories</li>
+</ul>
+<hr>
+</section>
+<section id="atlantic-niño-in-recent-years" class="level1">
+<h1>Atlantic Niño in Recent Years</h1>
+<p>Future case studies will document notable Atlantic Niño events and their associated impacts.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Event</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Atlantic Niño 2024</td>
+<td>Marine heatwaves in the Gulf of Guinea</td>
+</tr>
+<tr class="even">
+<td>Atlantic Niño 2021</td>
+<td>Enhanced Guinea Coast rainfall</td>
+</tr>
+<tr class="odd">
+<td>Atlantic Niño 1998</td>
+<td>One of the strongest observed warm events</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="further-reading" class="level1">
+<h1>Further Reading</h1>
+<section id="review-papers" class="level2">
+<h2 class="anchored" data-anchor-id="review-papers">Review papers</h2>
+<ul>
+<li>Lübbecke, J. F., &amp; McPhaden, M. J. (2017). <em>On the inconsistent relationship between Atlantic Niño and Atlantic hurricanes</em>. Geophysical Research Letters.</li>
+<li>Richter, I., Xie, S.-P., Behera, S. K., Doi, T., &amp; Masumoto, Y. (2013). <em>Equatorial Atlantic variability and its relation to mean state biases in CMIP5</em>. Climate Dynamics.</li>
+<li>Zebiak, S. E. (1993). <em>Air–sea interaction in the equatorial Atlantic region</em>. Journal of Climate.</li>
+</ul>
+</section>
+<section id="monitoring-centres" class="level2">
+<h2 class="anchored" data-anchor-id="monitoring-centres">Monitoring centres</h2>
+<ul>
+<li>NOAA</li>
+<li>Copernicus Climate Change Service</li>
+<li>Mercator Ocean</li>
+<li>PIRATA</li>
+</ul>
+</section>
+<section id="data-portals" class="level2">
+<h2 class="anchored" data-anchor-id="data-portals">Data portals</h2>
+<ul>
+<li>NOAA PSL</li>
+<li>NOAA CPC</li>
+<li>Copernicus Marine Service</li>
+<li>ECMWF</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

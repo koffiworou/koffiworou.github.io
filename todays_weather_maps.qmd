@@ -1,0 +1,26 @@
+---
+title: "Today's Weather Maps"
+page-layout: full
+---
+
+
+This page displays selected operational weather and climate maps from the **Climate Reanalyzer**, providing a snapshot of the current state of the Earth system.
+
+These products are updated regularly and are useful for monitoring ongoing weather patterns and large-scale climate anomalies.
+
+---
+
+## 🌊 Sea Surface Temperature Anomalies
+
+Sea surface temperature (SST) anomalies highlight regions that are warmer or cooler than the climatological average. Persistent SST anomalies play a key role in climate variability, influencing phenomena such as El Niño, the Atlantic Niño, tropical cyclones, and regional rainfall.
+
+![](images/downloaded_figures/gfs_world-wt_sstanom_d1.png){width=100%}
+
+*Source: Climate Reanalyzer (Climate Change Institute, University of Maine).*
+
+The link to the original map can be found [here](https://climatereanalyzer.org/wx/todays-weather/maps/gfs_world-wt_sstanom_d1.png).
+
+Other available products can be obtained from <https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1>.
+
+
+---

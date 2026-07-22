@@ -1,0 +1,154 @@
+---
+title: "ENSO Key Diagnostic Figures"
+page-layout: full
+---
+
+
+The figures from this page are retrieved from the [**NOAA Climate Prediction Center (CPC)**](https://cpc.ncep.noaa.gov/products/GODAS/) ENSO monitoring products. They provide a visual summary of the current state of the El Niño–Southern Oscillation (ENSO) and its evolution over time.
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sstanim.gif"
+    alt="sea surface temperature animation, tropical Pacific Ocean"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Weekly evolution of sea surface temperature in the tropical Pacific Ocean. Source: NOAA CPC.
+
+:::
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sstaanim.gif"
+    alt="Sea surface temperature anomaly, tropical Pacific Ocean"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Sea surface temperature anomaly (°C) relative to the 1991–2020 climatology. Source: NOAA CPC.
+:::
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/anim/wkxzteq_all.gif"
+    alt="Equatorial temperature  variation with depth, tropical Pacific Ocean"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Equatorial temperature  (°C) variation with depth in the tropical Pacific Ocean. Source: NOAA CPC.
+
+:::
+
+
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://cpc.ncep.noaa.gov/products/analysis_monitoring/ocean/anim/wkxzteq_anm.gif"
+    alt="Equatorial temperature anomaly variation with depth, tropical Pacific Ocean"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Equatorial temperature anomaly (°C) variation with depth in the tropical Pacific Ocean. Source: NOAA CPC.
+:::
+
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/olra-30d.gif"
+    alt="Outgoing longwave radiation anomalies"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Outgoing longwave radiation (OLR) anomalies. Source: NOAA CPC.
+:::
+
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/uv850-30d.gif"
+    alt="850 hPa wind anomalies"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** 850 hPa wind anomalies. Source: NOAA CPC.
+:::
+
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/uv200-30d.gif"
+    alt="200 hPa wind anomalies"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** 200 hPa wind anomalies. Source: NOAA CPC.
+:::
+
+
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://www.cpc.ncep.noaa.gov/products/GODAS/pent_gif/xy/movie.oisst.gif"
+    alt="Global SST anomalies"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Global sea surface temperature anomalies (°C) relative to the 1991–2020 climatology. Source: NOAA CPC.
+
+:::
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://www.cpc.ncep.noaa.gov/products/GODAS/pent_gif/xy/movie.d20.gif"
+    alt="Thermocline depth anomalies"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Thermocline depth anomalies, indicated by the 20°C isotherm depth. Source: NOAA CPC.
+
+:::
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://cpc.ncep.noaa.gov/products/GODAS/pent_gif/xy/movie.sl.gif"
+    alt="SSH anomalies"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Sea surface height (SSH) anomalies. Source: NOAA CPC.
+
+:::
+
+
+::: {.figure}
+
+<div style="text-align:center;">
+  <img
+    src="https://cpc.ncep.noaa.gov/products/GODAS/pent_gif/xz/movie.temp.0n.gif"
+    alt="Subsurface temperature anomalies"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Subsurface temperature anomalies (°C) relative to the 1991–2020 climatology. Source: NOAA CPC.
+Cross-section of the tropical basin, along the equator, showing the evolution of subsurface temperature anomalies over time. The vertical axis represents depth (in meters), while the horizontal axis represents longitude (in degrees). Positive anomalies indicate warmer-than-average conditions, while negative anomalies indicate cooler-than-average conditions.
+
+:::

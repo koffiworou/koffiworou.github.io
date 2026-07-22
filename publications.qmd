@@ -1,0 +1,145 @@
+---
+title: "Publications"
+bibliography: references.bib
+link-citations: true
+nocite: |
+  @*
+---
+
+
+
+My research focuses on climate variability, climate extremes, Earth system modelling, and the application of artificial intelligence to climate science. The publications below are organised by research theme.
+
+---
+
+
+# 🌍 Climate Extremes & Impacts
+
+Research on compound climate hazards and their impacts. 
+
+::: {.publication-card}
+
+### Compound drought–flood events amplify socio-economic impacts at the global scale
+
+@Worou_2025
+
+Global assessment of compound drought–flood events and their socio-economic consequences.
+
+:::
+
+
+
+::: {.publication-card}
+
+### Malaria outbreaks and climate variability
+
+@Nocentini_2026
+
+Exploring climate-sensitive disease dynamics through large-scale data analysis.
+
+:::
+
+::: {.publication-card}
+
+### Global inequalities in climate research
+
+@Shrestha_2026
+
+Analysis of disparities in climate science citations and research visibility.
+
+:::
+
+---
+
+# 🤖 Artificial Intelligence for Climate Science
+
+Research using artificial intelligence and large language models.
+
+::: {.publication-card}
+
+### ClimateNLP
+
+@Li_2024
+
+Using large language models to automatically extract information on climate impacts from scientific and public sources.
+
+:::
+
+::: {.publication-card}
+
+### Wikimpacts 1.0
+
+@Li_2026
+
+Large language models and NLP for building a comprehensive global climate-impact database.
+
+:::
+
+---
+
+# 🌊 Ocean–Atmosphere Interactions
+
+Research on Atlantic variability, the Atlantic Niño, and West African climate. 
+
+
+These three articles are the core of my PhD research.
+
+::: {.publication-card}
+
+### Future changes in the mean and variability of extreme rainfall indices over the Guinea Coast and role of the Atlantic equatorial mode
+
+@Worou_2023
+
+Projected changes in Guinea Coast rainfall extremes under climate change, highlighting the influence of the Atlantic Niño.
+
+:::
+
+::: {.publication-card}
+
+### Weakened impact of the Atlantic Niño on the future equatorial Atlantic and Guinea Coast rainfall
+
+@Worou_2022
+
+Analysis of how climate change modifies the Atlantic Niño teleconnection and its influence on Guinea Coast rainfall.
+
+:::
+
+::: {.publication-card}
+
+### Interannual variability of rainfall in the Guinean Coast region and its links with sea surface temperature changes
+
+@Worou_2020
+
+Study of rainfall variability over the Guinea Coast and its relationship with tropical Atlantic sea surface temperatures.
+
+:::
+
+Here is a contribution to a book chapter
+
+::: {.publication-card}
+
+### Projected precipitation changes in Africa
+
+@Monerie_2025
+
+Contributions to Earth system modelling and climate prediction
+
+:::
+
+---
+
+
+# 🧊 Earth System Modelling
+
+Research contributing to numerical climate modelling.
+
+::: {.publication-card}
+
+### Sea-ice thickness discretization in NEMO-LIM3
+
+@Massonnet_2019
+
+Evaluation of the impact of sea-ice thickness discretization on coupled climate model simulations.
+
+:::
+

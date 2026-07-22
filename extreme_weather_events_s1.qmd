@@ -1,0 +1,147 @@
+---
+title: "Extreme Weather Events"
+page-layout: full
+toc: true
+---
+
+# Extreme Weather Events
+
+Extreme weather events—including heatwaves, droughts, floods, tropical cyclones, and wildfires—have profound impacts on societies, ecosystems, and economies worldwide. This page provides a collection of operational tools and resources for monitoring ongoing events, analysing their meteorological drivers, assessing impacts, and exploring the influence of climate change.
+
+---
+
+## 🌍 Current Global Hazards
+
+### NASA Earth Observatory
+Daily satellite imagery highlighting active wildfires, dust storms, volcanic eruptions, floods, and other remarkable events.
+
+https://earthobservatory.nasa.gov/
+
+### NASA Worldview
+Explore near real-time satellite imagery from MODIS, VIIRS and other sensors.
+
+https://worldview.earthdata.nasa.gov/
+
+### GDACS — Global Disaster Alert and Coordination System
+Real-time monitoring of floods, tropical cyclones, earthquakes, volcanic eruptions and wildfires.
+
+https://www.gdacs.org/
+
+### Copernicus Emergency Management Service
+European operational monitoring of floods, droughts, wildfires and emergency mapping.
+
+https://emergency.copernicus.eu/
+
+---
+
+## 🌡 Heatwaves
+
+### Climate Shift Index (Climate Central)
+
+Identifies where climate change has increased the likelihood of unusually warm temperatures.
+
+https://www.climatecentral.org/climate-shift-index
+
+### NOAA HeatRisk
+
+Forecast-based assessment of heat impacts across the United States.
+
+https://www.wpc.ncep.noaa.gov/heatrisk/
+
+---
+
+## 🌊 Drought Monitoring
+
+### Global Drought Observatory
+
+https://drought.emergency.copernicus.eu/
+
+### US Drought Monitor
+
+https://droughtmonitor.unl.edu/
+
+---
+
+## 🌧 Flood Monitoring
+
+### Global Flood Awareness System (GloFAS)
+
+https://global-flood.emergency.copernicus.eu/
+
+### Dartmouth Flood Observatory
+
+https://floodobservatory.colorado.edu/
+
+---
+
+## 🌪 Tropical Cyclones
+
+### NOAA National Hurricane Center
+
+https://www.nhc.noaa.gov/
+
+### Joint Typhoon Warning Center
+
+https://www.metoc.navy.mil/jtwc/
+
+---
+
+## 🔥 Wildfires
+
+### FIRMS (NASA)
+
+https://firms.modaps.eosdis.nasa.gov/
+
+Provides near real-time active fire detections worldwide.
+
+---
+
+## 🌍 Climate Attribution
+
+### World Weather Attribution (WWA)
+
+Rapid scientific assessments of the role of climate change in observed extreme events.
+
+https://www.worldweatherattribution.org/
+
+### ClimaMeter
+
+Near real-time attribution of extreme weather events using observations and climate model simulations.
+
+https://www.climameter.org/
+
+---
+
+## 📊 Disaster Databases
+
+### EM-DAT
+
+International Disaster Database.
+
+https://www.emdat.be/
+
+### DesInventar
+
+Disaster inventory system supported by UNDRR.
+
+https://www.desinventar.net/
+
+---
+
+## 🛰 Climate Reanalysis
+
+### ERA5 Explorer
+
+https://cds.climate.copernicus.eu/
+
+### Climate Reanalyzer
+
+https://climatereanalyzer.org/
+
+---
+
+## 📚 Useful References
+
+- IPCC Sixth Assessment Report (AR6)
+- WMO State of the Global Climate
+- State of the Climate Reports (NOAA)

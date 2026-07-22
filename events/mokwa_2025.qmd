@@ -1,0 +1,69 @@
+---
+title: "Mokwa Flash Flood"
+subtitle: "Nigeria • 29 May 2025"
+page-layout: full
+toc: true
+---
+
+
+![](../images/events/nigeria_may_2025.jpg){fig-alt="Flooded neighbourhoods in Mokwa, Niger State, Nigeria following the May 2025 flash flood. "}
+
+*Flooded neighbourhoods in Mokwa following the catastrophic flash flood of 29 May 2025. Source: [Nigerian AFP ](https://english.ahram.org.eg/NewsContent/2/10/547209/World/Africa/Nigeria-floods-death-toll-jumps-to--Emergency-serv.aspx)*
+
+## Overview
+
+During the night of **28–29 May 2025**, the market town of **Mokwa**, located in **Niger State, north-central Nigeria**, experienced one of the country's deadliest flash floods in recent decades. Several hours of exceptionally intense overnight rainfall triggered rapidly rising floodwaters that inundated low-lying neighbourhoods, destroyed homes and critical infrastructure, and swept away entire communities while many residents were asleep. :contentReference[oaicite:0]{index=0}
+
+The disaster caused **more than 150 confirmed fatalities**, left many people missing, displaced thousands of residents, and severely disrupted transportation after roads and bridges were washed away. Relief agencies also reported widespread losses of homes, farmland, livestock, and local businesses, highlighting the vulnerability of rapidly growing communities to short-duration, high-intensity rainfall events. :contentReference[oaicite:1]{index=1}
+
+## Humanitarian impacts
+
+According to the ReliefWeb disaster profile (**FL-2025-000078-NGA**) and humanitarian situation reports:
+
+- **Event:** Flash flood
+- **Location:** Mokwa, Niger State, Nigeria
+- **Date:** 29 May 2025
+- **Hazard trigger:** Intense overnight rainfall
+- **Fatalities:** More than 150 people reported dead
+- **Displacement:** Thousands of residents displaced
+- **Infrastructure:** Homes, roads, bridges and public facilities severely damaged
+- **Livelihoods:** Significant impacts on agriculture, markets and local businesses :contentReference[oaicite:2]{index=2}
+
+Mokwa is an important commercial hub connecting northern agricultural regions with southern Nigeria. Consequently, the destruction of transport infrastructure and markets had impacts extending well beyond the immediate flood zone. :contentReference[oaicite:3]{index=3}
+
+## Satellite observations
+
+To investigate the meteorological evolution of this event, I produced the following animation from geostationary satellite **10.8 μm infrared brightness temperature** observations.
+
+The animation covers **23–31 May 2025**, allowing the development and propagation of deep convective systems over West Africa to be followed before, during, and after the flood.
+
+::: {.callout-note}
+## Infrared satellite animation
+
+
+```{=html}
+<video controls width="100%" preload="metadata">
+  <source src="../videos/Nigeria_IR_108_2025-05-23_2025-05-31_hourly_minimum_animation.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+```
+
+*Hourly minimum 10.8 μm infrared brightness temperature from 23–31 May 2025.*
+:::
+
+## Meteorological context
+
+The flood occurred during the early stages of the **West African monsoon**, a period characterised by frequent mesoscale convective systems (MCSs) propagating westward across the Sahel and Sudanian regions. Infrared satellite observations reveal the evolution of deep convective cloud systems whose very cold cloud tops are indicative of intense vertical development and heavy rainfall.
+
+Further analyses to be added include:
+
+- satellite-derived rainfall estimates (e.g. IMERG);
+- ERA5 atmospheric circulation and moisture fields;
+- synoptic-scale environment;
+- rainfall accumulations and return periods;
+- event attribution studies, where available.
+
+## References
+
+- ReliefWeb Disaster: [FL-2025-000078-NGA](https://reliefweb.int/disaster/fl-2025-000078-nga)
+- National Emergency Management Agency (NEMA): [Link](https://nema.gov.ng/mokwa-flood-update-3rd-june-2025/)

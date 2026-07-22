@@ -1,0 +1,49 @@
+---
+title: ""
+page-layout: full
+---
+
+
+::: {.columns .v-center}
+
+::: {.column width="30%"}
+
+![Photo: [Samuel Bouchoms](https://www.linkedin.com/in/samuel-bouchoms-28244763/) ](images/_MG_0822-YNO-3.jpg){fig-alt="Portrait of Koffi Worou" width=90% .rounded .shadow}
+
+:::
+
+::: {.column width="70%"}
+
+## Koffi Worou, PhD
+
+I'm a **climate physicist** interested in understanding climate variability and extreme events through observations, numerical modelling, statistical analysis, and the use of artificial intelligence in climate research. I am currently a postdoctoral researcher at **Uppsala University**, within the **Air, Water and Landscape Science** programme of the Department of Earth Sciences.
+
+My interdisciplinary research combines climate dynamics, data science, and impact modelling to better understand the physical mechanisms governing the climate system and how climate hazards translate into societal impacts.
+
+### Research interests
+
+My current research spans four complementary areas:
+
+- 🌊 **Climate variability and ocean–atmosphere interactions**, from past variability to future climate projections.
+- 🌍 **Compound weather and climate extremes**, with a focus on hazard characterization, exposure and socio-economic impacts.
+- 🤖 **Artificial intelligence for climate science**, including large language models and automated information extraction.
+- ❤️ **Climate and health**, investigating how climate variables affect human exposure and well-being.
+
+:::
+
+:::
+
+---
+
+> *My long-term goal is to advance our understanding of climate variability and extremes and to generate knowledge that helps build more resilient societies in a changing climate.*
+
+<div class="text-center">
+
+[Research](research.qmd){.btn .btn-primary .btn-lg}
+[Publications](publications.qmd){.btn .btn-outline-primary .btn-lg}
+[CV](cv.qmd){.btn .btn-outline-secondary .btn-lg}
+
+</div>
+
+---
+

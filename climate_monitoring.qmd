@@ -1,0 +1,80 @@
+---
+title: "Climate Monitoring"
+page-layout: full
+---
+
+
+This section provides an overview of major modes of climate variability that influence regional and global climate. Each page introduces the underlying physical mechanisms, recent observations, and their impacts.
+
+<div class="research-grid">
+
+
+
+
+<div class="research-card">
+
+## 🌍 Today's Weather Maps
+
+Explore near real-time global analyses and forecasts, including sea surface temperature anomalies, air temperature, precipitation, winds, and atmospheric circulation.
+
+**Available products**
+
+- Sea surface temperature anomalies
+- Surface air temperature
+- Precipitation
+- 500 hPa geopotential height
+- Wind fields
+
+[Explore →](todays_weather_maps.qmd)
+
+</div>
+
+<div class="research-card">
+
+## 🌊 Atlantic Niño
+
+The dominant mode of interannual variability in the equatorial Atlantic Ocean, influencing rainfall over West Africa and South America.
+
+**Topics**
+
+- SST anomalies
+- Atlantic Zonal Mode
+- Teleconnections
+
+[Explore →](atlantic_nino.qmd)
+
+</div>
+
+<div class="research-card">
+
+## 🌧 West African Monsoon
+
+A complex coupled ocean–atmosphere system controlling rainfall across the Sahel and Guinea Coast.
+
+**Topics**
+
+- Seasonal rainfall
+- Monsoon dynamics
+- Climate variability
+
+[Explore →](west_african_monsoon.qmd)
+
+</div>
+
+<div class="research-card">
+
+## 🌎 El Niño–Southern Oscillation
+
+The leading mode of tropical Pacific climate variability with worldwide impacts on weather and climate.
+
+**Topics**
+
+- ENSO
+- Teleconnections
+- Seasonal prediction
+
+[Explore →](enso.qmd)
+
+</div>
+
+</div>

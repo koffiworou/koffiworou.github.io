@@ -1,0 +1,153 @@
+---
+title: "Curriculum Vitae"
+page-layout: full
+---
+
+
+My research combines climate dynamics, numerical modelling, data science, and artificial intelligence to better understand climate variability, extreme events, and their impacts on society.
+
+<div class="cv-download">
+
+## 📄 Download my CV
+
+The complete curriculum vitae (including publications, teaching experience) is available as a PDF.
+
+[**Download CV (PDF)**](files/koffi_worou_2026_07.pdf){target="_blank" .btn .btn-primary}
+
+</div>
+
+---
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+## CV Preview
+
+<iframe
+  src="files/koffi_worou_2026_07.pdf#page=1"
+  width="100%"
+  height="600"
+  style="border:5px solid #ddd; border-radius:10px;">
+</iframe>
+
+:::
+
+::: {.column width="60%"}
+
+## Academic Profile
+
+### Current position
+
+**Postdoctoral Researcher**
+
+Department of Earth Sciences
+
+Uppsala University
+
+Sweden
+
+### Research Interests
+
+- Climate variability
+- Compound climate extremes
+- Climate impacts
+- Artificial Intelligence for Climate Science
+- Earth system modelling
+
+### Expertise
+
+- Climate modelling
+- Statistical analysis of large climate datasets
+- Programming in Python & R
+- High-performance computing
+- Machine Learning
+- Natural Language Processing
+
+### Education
+
+**PhD** – Sciences
+
+[UCLouvain](https://www.uclouvain.be/en), [Earth and Life Institute, Earth and Climate Research Center](https://www.uclouvain.be/en/research-institutes/eli/earth-and-climate-elic)
+
+**MSc** – Physics of Earth, Planets and Climate
+
+[UCLouvain](https://www.uclouvain.be/en), [School of Physics](https://www.uclouvain.be/fr/facultes/sc/formations-en-physique)
+
+
+
+:::
+
+:::
+
+---
+
+# Career Timeline
+
+| Year | Position |
+|------|----------|
+| 2023–present | Postdoctoral Researcher, Uppsala University |
+| 2016-2023 | Teaching Assistant and PhD candidate in Climate Sciences, UCLouvain |
+| 2012-2016 | MSc Physics |
+
+---
+
+# Highlights
+
+<div class="highlight-grid">
+
+<div>
+
+## Publications
+
+Peer-reviewed articles
+
+Book chapters
+
+Conference papers
+
+</div>
+
+<div>
+
+## Scientific Service
+
+Reviewer
+
+Conference convener
+
+Working groups
+
+</div>
+
+<div>
+
+## Technical Skills
+
+Python
+
+R
+
+GIS
+
+Machine Learning
+
+Climate models
+
+</div>
+
+<div>
+
+## Languages
+
+French
+
+English
+
+Dutch
+
+Swedish (basic)
+
+</div>
+
+</div>

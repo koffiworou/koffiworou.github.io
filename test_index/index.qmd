@@ -1,0 +1,43 @@
+
+---
+title: "Koffi Worou | Climate Scientist"
+---
+
+::: {.hero}
+
+![](images/esd-13-231-2022-f07-web.png)
+
+
+Understanding climate variability, climate extremes and their societal impacts using observations, climate models, and artificial intelligence.
+
+<br>
+
+[Research](research.qmd){.btn .btn-primary}
+[Publications](publications.qmd){.btn .btn-outline-primary}
+[CV](cv.qmd){.btn .btn-outline-secondary}
+
+---
+
+## Research Highlights
+
+
+
+### 🌊 Ocean–Atmosphere Interactions
+
+Understanding how tropical ocean variability influences regional climates.
+
+### 🌍 Compound Climate Extremes
+
+Investigating how paired hazards, such as droughts-floods, and droughts-heatwaves interact to amplify socio-economic impacts.
+
+### 🤖 Artificial Intelligence for Climate Science
+
+Applying large language models to build global climate impact databases.
+
+---
+
+## Latest News
+
+- Postdoctoral researcher at Uppsala University.
+- Working on compound climate extremes and climate impact databases.
+- Member of the CLIVAR/GEWEX African Monsoon Working Group.

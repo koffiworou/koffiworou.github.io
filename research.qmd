@@ -1,0 +1,79 @@
+---
+title: "Research"
+page-layout: full
+---
+
+
+My research aims to improve our understanding of climate variability, climate extremes, and their impacts on society. I combine climate dynamics, numerical modelling, statistical analysis, and artificial intelligence to investigate how the Earth system works and how climate hazards affect people.
+
+---
+
+## 🌊 Climate Variability
+
+Understanding the mechanisms driving climate variability across sub-seasonal to multi-decadal timescales.
+
+My research has focused on the tropical Atlantic Ocean, the Atlantic Niño, and the West African Monsoon. I investigate how ocean–atmosphere interactions influence rainfall variability and how these relationships may evolve under future climate change.
+
+**Topics**
+
+- Atlantic Niño
+- West African Monsoon
+- Ocean–atmosphere interactions, and teleconnections
+- Climate projections
+
+---
+
+## 🌍 Climate Extremes
+
+Climate extremes rarely occur in isolation. My research investigates compound events, such as droughts occurring together with heatwaves or floods, and their impacts on societies.
+
+I develop methods to detect compound events and quantify how they amplify socio-economic impacts worldwide.
+
+**Topics**
+
+- Heatwaves
+- Droughts
+- Floods
+- Compound events
+- Disaster impacts
+
+---
+
+## 🤖 Artificial Intelligence for Climate Science
+
+Artificial intelligence offers new opportunities to accelerate climate research.
+
+I participate in a project aiming to develop Natural Language Processing (NLP) and Large Language Model (LLM) approaches to extract information on climate impacts from textual data, including Wikipedia, contributing to global climate-impact databases.
+Our first dataset, [Wikimpacts 1.0](https://www.wikimpacts.eu/), contains over 32,000 climate-impact records extracted from Wikipedia, at sub-national levels.
+
+**Topics**
+
+- Large Language Models
+- Natural Language Processing
+- Climate databases
+- Information extraction
+
+---
+
+## ❤️ Climate & Health
+
+Climate change increasingly affects human health through heat stress, infectious diseases, and other environmental risks.
+
+My current research investigates how climate extremes translate into human exposure and health impacts, with a particular interest in developing indicators useful for adaptation planning.
+
+**Topics**
+
+- Heat stress
+- Human exposure
+- Climate adaptation
+- Public health
+
+---
+
+# Current Projects
+
+- Compound climate extremes and socio-economic impacts
+- AI-assisted climate impact databases
+- Climate extremes and human health
+- Marine heatwaves in the tropical Atlantic
+

@@ -1,0 +1,33 @@
+---
+title: "My Research Journey"
+page-layout: full
+
+---
+
+My
+[{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-2230-8431)
+
+
+---
+title: ""
+---
+
+
+
+<div class="text-center lead">
+
+
+</div>
+
+<div class="text-center">
+
+[Research](research.qmd){.btn .btn-primary .btn-lg}
+[Publications](publications.qmd){.btn .btn-outline-primary .btn-lg}
+[CV](cv.qmd){.btn .btn-outline-secondary .btn-lg}
+
+</div>
+
+![](images/chatgpt00.png){fig-alt="Atlantic Niño research" width=100%}
+
+
+---

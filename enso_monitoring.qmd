@@ -1,0 +1,52 @@
+---
+title: "Current ENSO Monitoring"
+---
+
+
+The following figures are provided directly by the NOAA Climate Prediction Center and are updated with each ENSO Diagnostic Discussion.
+
+---
+
+## Figure 1. Sea Surface Temperature Anomalies
+
+![](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/figure01.gif){width=90%}
+
+---
+
+## Figure 2. Subsurface Temperature Anomalies
+
+![](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/figure03.gif){width=90%}
+
+---
+
+## Figure 3. Atmospheric Conditions
+
+![](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/figure04.gif){width=90%}
+
+---
+
+## Figure 4. Outgoing Longwave Radiation
+
+![](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/figure05.gif){width=90%}
+
+---
+
+## Figure 5. Niño SST Indices
+
+![](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/figure06.gif){width=90%}
+
+---
+
+## Figure 6. Model Forecasts
+
+![](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/figure07.gif){width=90%}
+
+---
+
+## Figure 7. ENSO Probability Outlook
+
+![](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/figure08.gif){width=90%}
+
+---
+
+*Source: NOAA Climate Prediction Center*

@@ -1,0 +1,160 @@
+---
+title: "Curriculum Vitae"
+page-layout: full
+---
+
+
+My research combines climate dynamics, numerical modelling, data science, and artificial intelligence to better understand climate variability, extreme events, and their impacts on society.
+
+<div class="cv-download">
+
+## 📄 Download my CV
+
+The complete curriculum vitae (including publications, teaching experience) is available as a PDF.
+
+[**Download CV (PDF)**](files/koffi_worou_2026_07.pdf){target="_blank" .btn .btn-primary}
+
+</div>
+
+---
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+## CV Preview
+
+<iframe
+  src="files/koffi_worou_2026_07.pdf#page=1"
+  width="100%"
+  height="600"
+  style="border:5px solid #ddd; border-radius:10px;">
+</iframe>
+
+:::
+
+::: {.column width="60%"}
+
+## Academic Profile
+
+### Current position
+
+**Postdoctoral Researcher**
+
+Department of Earth Sciences
+
+Uppsala University
+
+Sweden
+
+### Research Interests
+
+- Climate variability
+- Compound climate extremes
+- Climate impacts
+- Artificial Intelligence for Climate Science
+- Earth system modelling
+
+### Expertise
+
+- Climate modelling
+- Statistical analysis of large climate datasets
+- Programming in Python & R
+- High-performance computing
+- Machine Learning
+- Natural Language Processing
+
+### Education
+
+**Ph.D.** – Sciences
+
+[UCLouvain](https://www.uclouvain.be/en), [Earth and Life Institute, Earth and Climate Research Center](https://www.uclouvain.be/en/research-institutes/eli/earth-and-climate-elic)
+
+**M.Sc.** – Physics of Earth, Planets and Climate
+
+[UCLouvain](https://www.uclouvain.be/en), [School of Physics](https://www.uclouvain.be/fr/facultes/sc/formations-en-physique)
+
+
+
+:::
+
+:::
+
+---
+
+# Career Timeline
+
+| Year | Position |
+|------|----------|
+| 2023–present | Postdoctoral Researcher, Uppsala University |
+| 2016-2023 | Teaching Assistant in Physics, and Ph.D. candidate, UCLouvain |
+| 2012-2016 | M.Sc. Physics |
+
+---
+
+
+## Professional Affiliations
+
+My research is conducted within an international network of collaborations focused on climate variability, climate extremes, and their societal impacts. I am actively involved in the following scientific initiatives:
+
+- **Regional Working Group on African Monsoons (WG-AFM)**  
+  Member of the international working group under the Monsoon Panel, contributing to research on African monsoon dynamics, predictability, and climate variability.  
+  **Website:** <https://impo.tropmet.res.in/mpwg-afm-members.html>
+
+- **Centre for Impacts of Climate Extremes (CLIMES)**  
+  Affiliated researcher with the Swedish Centre for Impacts of Climate Extremes, an interdisciplinary research centre investigating the impacts of climate extremes and supporting climate adaptation and resilience.  
+  **Website:** <https://www.climes.se/about/>
+
+---
+
+# Highlights
+
+<div class="highlight-grid">
+
+
+
+<div>
+
+## Scientific Service
+
+
+Conference convener
+
+**2026**
+
+- Co-convener of the European Geoscience Union General Assembly session, [CL4.7](https://meetingorganizer.copernicus.org/EGU26/session/56772), on Climate and Life in Africa, from Past to Future. 
+  
+
+
+
+</div>
+
+<div>
+
+## Technical Skills
+
+Python
+
+R
+
+GIS
+
+Machine Learning
+
+Climate models
+
+</div>
+
+<div>
+
+## Languages
+
+French
+
+English
+
+Swedish (basic)
+
+</div>
+
+</div>

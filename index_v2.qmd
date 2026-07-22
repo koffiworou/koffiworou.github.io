@@ -1,0 +1,33 @@
+---
+title: ""
+page-layout: full
+---
+
+# **Dr. Koffi Worou** 
+
+<div class="columns" style="margin-left: 0px; margin-right: 100px; display: flex; align-items: center; font-size: px">
+
+ <div>
+
+  ![Dr. Koffi Worou](images/_MG_0822-YNO-3.jpg)
+
+
+ </div>
+
+  <div style="margin-left: 0px; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 100%; font-size: 25px">
+
+
+  **About me:**
+
+I’m a climate physicist, and I hold a postdoctoral research position at Uppsala University, in the Air, Water, Landscape and Meteorology program of the Department of Earth Science. 
+
+My interdisciplinary research activities focus on:
+
+* The interranual variability of the climate system
+* Compound weather and climate extremes, and their socio-economic impacts
+* Large language models and their applications in climate science
+* Climate impacts on health
+
+ </div>
+
+---
