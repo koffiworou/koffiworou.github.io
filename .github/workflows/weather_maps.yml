@@ -2,8 +2,7 @@ name: Update Weather Maps
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 6 * * *"
+  
 
 permissions:
   contents: write
@@ -25,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests
+          pip install -r requirements.txt
 
       - name: Run update scripts
         run: |
