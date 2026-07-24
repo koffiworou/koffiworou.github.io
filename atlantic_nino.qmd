@@ -30,27 +30,67 @@ This section will be updated automatically using GitHub Actions.
 
 ---
 
-## Sea surface temperature anomalies
+
+
+## Equatorial Atlantic Sea surface temperature evolution
+
+
+![Seasonal cycle of sea surface temperature over the ATL3 region (3°S–3°N, 20°W–0°) in the equatorial Atlantic Ocean. Reference period: 1854-2025 period.](images/atlantic_nino/monthly_average_sst_atlantic_nino_ERSSTv5_period_1854_2025.png){width=100%}
+
+
+![Variation of the annual sea surface temperature anomalies over the equatorial Atlantic region. Anomalies are computed relative to the 1854-2025 period.](images/atlantic_nino/annual_cycle_atlantic_nino.png){width=100%}
+
+
+
+---
+
+## Two weeks averages of sea surface temperatures and their anomalies 
+
+
+::: {.figure}
+
+<div style="text-align:left;">
+  <img
+    src="videos/sst_atl_15d_animation.gif"
+    alt="Thermocline depth anomalies"
+    style="max-width:100%; border-radius:8px;">
+</div>
+
+**Figure.** Sea surface temperature anomalies show the development of Atlantic Niña event, in relation with the El-Niño growing phase in the equatorial Pacific. Source: [NOAA CPC](https://www.cpc.ncep.noaa.gov/products/hurricane/), @NOAA_CPC_Contacts.
+
+:::
+
+::: {.callout-note}
+
+## Start and stop the animation at any time from here: 
+
+
+```{=html}
+<video controls width="100%" preload="metadata">
+  <source src="videos/sst_atl_15d_animation.mp4" type="video/mp4">
+</video>
+```
+
+**Figure.** Sea surface temperature anomalies show the development of Atlantic Niña event, in relation with the El-Niño growing phase in the equatorial Pacific. Source: [NOAA CPC](https://www.cpc.ncep.noaa.gov/products/hurricane/), @NOAA_CPC_Contacts.
+
+:::
+
+
+## Recent daily sea surface temperature anomalies
 
 ![](images/downloaded_figures/gfs_world-wt_sstanom_d1.png){width=100%}
 
 ---
 
-## Equatorial Atlantic Sea surface temperature evolution
-
-![Variation of the annual sea surface temperature anomalies over the equatorial Atlantic region. Anomalies are computed relative to the 1854-2025 period.](images/atlantic_nino/annual_cycle_atlantic_nino.png){width=100%}
-
-![Seasonal cycle of sea surface temperature over the ATL3 region (3°S–3°N, 20°W–0°) in the equatorial Atlantic Ocean. Reference period: 1854-2025 period.](images/atlantic_nino/monthly_average_sst_atlantic_nino_ERSSTv5_period_1854_2025.png){width=100%}
-
 ---
 
 ## Surface winds
 
-*(current wind field maps, available soon.)*
+![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_ws10_d1.png){width=100%}
 
 ---
 
-## Sea surface temperature anomalies
+## Sea surface temperature anomalies animation
 
 ::: {.figure}
 
@@ -66,7 +106,7 @@ This section will be updated automatically using GitHub Actions.
 
 ---
 
-## Sea surface height anomalies
+## Sea surface height anomalies animation
 
 ::: {.figure}
 
@@ -83,7 +123,7 @@ This section will be updated automatically using GitHub Actions.
 
 ---
 
-## Thermocline depth and subsurface conditions
+## Thermocline depth and subsurface conditions, animations
 
 
 
@@ -128,7 +168,7 @@ Cross-section of the tropical basin, along the equator, showing the evolution of
     style="max-width:100%; border-radius:8px;">
 </div>
 
-**Figure.** Outgoing longwave radiation (OLR) anomalies. Negative values indicate enhanced convection and precipitation, while positive values indicate suppressed convection and precipitation. Source: [NOAA PSL](https://psl.noaa.gov/data/gridded/data.interp_olr.html), @NOAA_PSL_DataUse.
+**Figure.** Outgoing longwave radiation (OLR) anomalies. Negative values indicate enhanced convection and precipitation, while positive values indicate suppressed convection and precipitation. Source: [NOAA PSL](https://psl.noaa.gov/map/), @NOAA_PSL_DataUse.
 :::
 
 ---

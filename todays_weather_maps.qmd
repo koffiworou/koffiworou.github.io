@@ -14,13 +14,39 @@ These products are updated regularly and are useful for monitoring ongoing weath
 
 Sea surface temperature (SST) anomalies highlight regions that are warmer or cooler than the climatological average. Persistent SST anomalies play a key role in climate variability, influencing phenomena such as El Niño, the Atlantic Niño, tropical cyclones, and regional rainfall.
 
-![](images/downloaded_figures/gfs_world-wt_sstanom_d1.png){width=100%}
 
-*Source: Climate Reanalyzer (Climate Change Institute, University of Maine).*
+![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_sstanom_d1.png){width=100%}
 
-The link to the original map can be found [here](https://climatereanalyzer.org/wx/todays-weather/maps/gfs_world-wt_sstanom_d1.png).
 
-Other available products can be obtained from <https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1>.
+## Mean sea level pressure standardized anomalies
+
+![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_mslp-anomsd_d1.png){width=100%}
+
+## Geopotential hight at 500 hPa
+
+![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_gph500-anomsd_d1.png){width=100%}
+
+
+
+## 💧 Precipitation and Mean sea level pressure (from GFS model)
+
+![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_prcp-mslp_d1.png){width=100%}
+
+
+## 🌬️ Wind Speed at 10 m level
+
+![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_ws10_d1.png){width=100%}
+
+## 🌬️ Mid-level Jet stream at 500 hPa level
+
+![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_ws500-gph_d1.png){width=100%}
+
+
+
+## 🌬️ High level Jet stream at 250 hPa
+
+![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_ws250-mslp_d1.png){width=100%}
+
 
 
 ---
