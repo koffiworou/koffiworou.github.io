@@ -1,6 +1,8 @@
 ---
 title: ""
+pagetitle: "Home"
 page-layout: full
+title-block-banner: false
 ---
 
 

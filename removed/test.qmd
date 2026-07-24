@@ -1,7 +1,0 @@
----
-title: Test
----
-
-# Test
-
-![](https://climatereanalyzer.org/wx/todays-weather/maps/gfs_world-wt_sstanom_d1.png)
