@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-898GBP1TPH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-898GBP1TPH');
+</script>		<title>Climate Reanalyzer</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=1024, user-scalable=yes, minimum-scale=0.3, maximum-scale=2.0">
+		<link rel="icon" type="image/png" href="logos/favicon-cr.png">
+		<link rel="stylesheet" type="text/css" href="css/fp.css?v=003">
+		<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+		<script type="text/javascript" src="js/fp.js?v=001"></script>
+		<style>
+			#wrapper {
+				scale: 1.32;
+			}
+			@media screen and (max-width: 1360px) {
+				#wrapper {
+					scale: 1.2;
+				}
+			}
+			@media screen and (max-width: 1230px) {
+				#wrapper {
+					scale: 1.1;
+				}
+			}
+			@media screen and (max-width: 1120px) {
+				#wrapper {
+					scale: 1;
+				}
+			}
+			@media screen and (max-width: 1024px) {
+				#wrapper {
+					scale: 0.8;
+					margin-left: -45px;
+				}
+			}
+			@media screen and (max-width: 830px) {
+				#wrapper {
+					scale: 0.65;
+					margin-left: -120px;
+				}
+			}
+			@media screen and (max-width: 740px) {
+				#wrapper {
+					scale: 0.55;
+					margin-left: -190px;
+				}
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		
+			<div id="banner">
+				<img src="logos/CR_top_May-2016.svg" style="width:488px; margin-left:20px; z-index:100;">
+			</div>
+			
+			<!-- <div style="position:fixed; z-index:1000"> -->
+			<!-- 	<svg height="800" width="800"> -->
+					<!-- <circle cx="645" cy="345" r="356" stroke="black" stroke-width="3" fill="none" /> -->
+			<!-- 		<circle cx="640" cy="346" r="375" stroke="black" stroke-width="3" fill="none" /> -->
+			<!-- </div> -->
+			
+			<div id="left_panel">
+				<h1 style="margin-right:-155px; margin-top:15px;">Weather Forecasts</h1>
+				<ul class="a">
+					<li style="margin-right:-110px;"><a href="wx/todays-weather/">Today's Weather Maps</a></li>
+					<li style="margin-right:-75px;"><a href="wx/fcst_outlook/">Outlook Forecast Maps</a></li>
+					<li style="margin-right:-48px;"><a href="wx/fcst/">Hourly Forecast Maps</a></li>
+					<li style="margin-right:-27px;"><a href="wx/satellite/">Latest U.S. Satellite Images</a></li>
+				</ul>
+				<h1 style="margin-right:-4px; margin-top:1em;">Climate Charts</h1>
+				<ul class="a">
+					<li style="margin-right:8px;"><a href="clim/t2_daily/">Daily Surface Air Temperature</a></li>
+					<li style="margin-right:15px;"><a href="clim/sst_daily/">Daily Sea Surface Temperature</a></li>
+					<li style="margin-right:21px;"><a href="clim/seaice_daily/">Daily Sea Ice Extent</a></li>
+					<li style="margin-right:22px;"><a href="clim/daily_maps/">Daily Map Animations</a></li>
+					<li style="margin-right:21px;"><a href="clim/noaa-us-monthly/">Monthly U.S. Temp & Precip</a></li>
+					<li style="margin-right:17px;"><a href="clim/sst_monthly/">Monthly Global Sea Sfc Temp</a></li>
+				</ul>
+				
+				<h1 style="margin-right:7px; margin-top:1em;">Research Tools</h1>
+				<ul class="a">
+					<li style="margin-right:-4px;"><a href="research_tools/monthly_maps/">Monthly Reanalysis Maps</a></li>
+					<li style="margin-right:-19px;"><a href="research_tools/monthly_tseries/">Monthly Reanalysis Timeseries</a></li>
+					<li style="margin-right:-38px;"><a href="research_tools/monthly_correl/">Monthly Reanalysis Correlations</a></li>
+					<li style="margin-right:-65px;"><a href="clim/ecm/">Environmental Change Model</a></li>
+				</ul>
+				
+				<h1 style="margin-right:-88px; margin-top:1em;">About CR</h1>
+				<ul class="a">
+					<li style="margin-right:-135px;"><a href="about/">Site Overview</a></li>
+					<li style="margin-right:-183px;"><a href="clim/explore/">Explore Climate Change</a></li>
+				</ul>
+			</div>
+			
+			<div id="right_panel">
+				<div id="img_container">
+					<a href="wx/todays-weather/?var_id=prcp-tcld-topo&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_prcp-tcld-topo_d1.png"/></a>
+					
+					<a href="wx/todays-weather/?var_id=ws500-gph&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_ws500-gph_d1.png"/></a>
+					
+					<a href="wx/todays-weather/?var_id=gph500&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_gph500_d1.png"/></a>
+					
+					<a href="wx/todays-weather/?var_id=ws10&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_ws10_d1.png"/></a>
+					
+					<a href="wx/todays-weather/?var_id=pwtr&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_pwtr_d1.png"/></a>
+					
+					<a href="wx/todays-weather/?var_id=t2&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_t2_d1.png"/></a>
+					
+					<a href="wx/todays-weather/?var_id=t2anom&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_t2anom_d1.png"/></a>
+					
+					<a href="wx/todays-weather/?var_id=sst&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_sst_d1.png"/></a>
+					
+					<a href="wx/todays-weather/?var_id=sstanom&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_sstanom_d1.png"/></a>
+					
+					<a href="wx/todays-weather/?var_id=seaice-snowc&ortho=1&wt=1">
+						<img src="wx/todays-weather/maps/gfs_nh-sat-fp_seaice-snowc_d1.png"/></a>
+				</div>
+			</div>
+			
+			<div id="bottom_panel">
+				<hr/>
+				<div style="margin:auto; width:600px;">
+					<a href="https://climatechange.umaine.edu" target="_blank"><img src="logos/CCI_logo.gif" style="margin-right: 60px;"></a>
+					<a href="https://www.umaine.edu" target="_blank"><img src="logos/UMaine_logo.png"        style="margin-right: 60px;"></a>
+					<a href="https://www.nsf.gov" target="_blank"><img src="logos/NSF_logo.jpg"              style="height:75px;"></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
