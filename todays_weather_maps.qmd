@@ -19,7 +19,7 @@ Sea surface temperature (SST) anomalies highlight regions that are warmer or coo
 
 ## 🌡️ Air temperature at 2m
 
-![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_t2anom-sst_d1.png){width=100%}
+![[Source: Climate Reanalyzer (Climate Change Institute, University of Maine).](https://climatereanalyzer.org/wx/todays-weather/?var_id=sstanom&ortho=1&wt=1)](images/downloaded_figures/gfs_world-wt_t2anom_d1.png){width=100%}
 
 
 ## Mean sea level pressure standardized anomalies

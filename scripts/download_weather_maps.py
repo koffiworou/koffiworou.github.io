@@ -26,7 +26,7 @@ files = {
     "gfs_world-wt_ws500-gph_d1.png":
         "https://climatereanalyzer.org/wx/todays-weather/maps/gfs_world-wt_ws500-gph_d1.png",
     "gfs_world-wt_t2anom-sst_d1.png":
-        "https://climatereanalyzer.org/wx/todays-weather/maps/gfs_world-wt_t2anom-sst_d1.png",
+        "https://climatereanalyzer.org/wx/todays-weather/maps/gfs_world-wt_t2anom_d1.png",
 }
 
 def main():
